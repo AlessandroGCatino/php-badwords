@@ -8,7 +8,7 @@
 </head>
 <body class="text-center">
     <h1>No more badwords!</h1>
-    <form action="result.php" method="get">
+    <form action="result.php" method="post">
         <div>
             <label for="text">Inserisci il testo con la parola da censurare:</label>
             <textarea name="text" id="text" cols="30" rows="10"></textarea>
